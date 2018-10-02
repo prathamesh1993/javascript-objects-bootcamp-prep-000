@@ -6,7 +6,7 @@ function updatePlaylist(the_playlist,name,song_name){
 }
 
 function removeFromPlaylist(the_playlist,name){
-  delete the_playlist.name
+  delete the_playlist[name]
   return the_playlist
 }
 

@@ -9,3 +9,5 @@ function removeFromPlaylist(the_playlist,name){
   delete the_playlist.name
   return the_playlist
 }
+
+print(removeFromPlaylist(playlist,akon))

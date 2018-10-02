@@ -6,8 +6,7 @@ function updatePlaylist(the_playlist,name,song_name){
 }
 
 function removeFromPlaylist(the_playlist,name){
-  delete the_playlist.name
+  delete the_playlist.namez
   return the_playlist
 }
 
-print(removeFromPlaylist(playlist,akon))
